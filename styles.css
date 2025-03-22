@@ -1,0 +1,96 @@
+body {
+  background-image: url(images/resized51.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-size: 30px;
+  color: black;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.established {
+  font-style: italic;
+  color: black;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: rgba(210, 180, 140, 0.8);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  color: black;
+}
+
+th,
+td {
+  border: 1px solid rgba(10, 8, 8, 0.3);
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: rgba(15, 13, 13, 0.2);
+}
+
+a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+  display: inline;
+  margin-left: 4rem;
+}
+
+.waffel {
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+  display: inline;
+  margin-left: 5rem;
+}
+
+.coffee {
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+  display: inline;
+  margin-inline-start: 10rem;
+}
